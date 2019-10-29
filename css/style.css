@@ -1,0 +1,47 @@
+body{
+  background-color: darkred ;
+  text-align: center;
+}
+h1{
+  color: darkblue;
+}
+h4{
+  color: orange;
+}
+
+.ghost{
+  background-image: url(/images/WingGhost.png);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-left: 35%;
+  margin-bottom: 5%;
+}
+.ghost:hover{
+background-image: url(/images/CreepyWingGhost.png);
+}
+
+.float{
+  background-image: url(/images/FloatingGhost.png);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-left: 35%;
+  margin-bottom: 5%;
+}
+.float:hover{
+background-image: url(/images/BlackFloatingGhost.png);
+}
+
+.hallow{
+  background-image: url(/images/HallowGhost.png);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-left: 35%;
+  margin-bottom: 5%;
+
+}
+.hallow:hover{
+background-image: url(/images/BlackHallowGhost.png);
+}
